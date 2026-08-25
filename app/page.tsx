@@ -98,7 +98,12 @@ export default function Home() {
           </div>
 
           {/* RIGHT SIDE */}
-          <div className="flex items-center justify-center">
+          <div className="relative flex items-center justify-center">
+            <img
+  src="/images/globe.png"
+  alt="AeroPal Globe"
+  className="aero-globe"
+/>
 
             <div className="aero-glass relative -translate-x-16 w-full max-w-md overflow-hidden rounded-2xl">
 
