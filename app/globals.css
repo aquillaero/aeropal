@@ -296,3 +296,20 @@ body {
     transform: translateY(-20px);
   }
 }
+.aero-dolphin {
+  width: 90px;
+  height: auto;
+  image-rendering: pixelated;
+  animation: dolphinFloat 3.5s ease-in-out infinite;
+}
+
+@keyframes dolphinFloat {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-4deg);
+  }
+
+  50% {
+    transform: translateY(-12px) rotate(4deg);
+  }
+}

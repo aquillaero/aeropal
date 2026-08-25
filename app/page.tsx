@@ -54,10 +54,17 @@ export default function Home() {
               ✦ WELCOME TO OUR LITTLE INTERNET ✦
             </p>
 
-            <h1 className="aero-title text-7xl md:text-8xl">
-              AeroPal
-            </h1>
+<div className="flex items-center gap-4">
+  <h1 className="aero-title text-7xl md:text-8xl">
+    AeroPal
+  </h1>
 
+  <img
+    src="/images/dolphin.png"
+    alt="Pixel dolphin"
+    className="aero-dolphin"
+  />
+</div>
             <p className="mt-6 text-lg font-bold tracking-wide">
               ✧ collect nostalgia. carry the aero. ✧
             </p>
@@ -91,13 +98,9 @@ export default function Home() {
           </div>
 
           {/* RIGHT SIDE */}
-<div className="relative flex items-center justify-center">            <img
-  src="/images/globe.png"
-  alt="AeroPal Globe"
-  className="aero-globe"
-/>
+          <div className="flex items-center justify-center">
 
-            <div className="aero-glass w-full max-w-md overflow-hidden rounded-2xl">
+            <div className="aero-glass relative -translate-x-16 w-full max-w-md overflow-hidden rounded-2xl">
 
               <div className="flex items-center justify-between bg-gradient-to-r from-[#4aa3ef] to-[#8bd7ff] px-5 py-3 text-white">
                 <span className="font-bold">♫ AeroPal Playlist</span>
@@ -185,4 +188,7 @@ export default function Home() {
   );
 }
 <img
+src="/images/globe.png"
+  alt="AeroPal Globe"
+  className="aero-globe"
 />
